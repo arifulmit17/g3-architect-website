@@ -184,12 +184,15 @@ main>section{
 /* responsive design */
 
 @media screen and (max-width: 576px) {
-    .navbar ,.nav-links , .teams{
+    .navbar ,
+    .nav-links ,
+    .features,
+     .teams{
         flex-direction: column;
     }
     .teams-img-container,
      .facts-container,
-     .features,
+     
      .sponsor-companies
      {
         grid-template-columns: 1fr;
